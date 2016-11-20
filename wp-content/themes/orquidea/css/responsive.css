@@ -1,0 +1,162 @@
+@media (min-width: 1200px) {
+  
+}
+@media (min-width: 980px) {
+  
+}
+@media (max-width: 1000px) {
+  .cs-style-4 figcaption .descrtext {
+    display: none!important;
+  }
+  nav#topmenu {
+    display: none;
+  }
+  nav#mobilenav {
+    display: block;
+  }
+  .serviceslist,
+  .teamlist,
+  .plicetable {
+    margin-right: 15px;
+  }
+  .singleblog .textblock p {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .singleblog .slidergallery .sliderarrows .ltar {
+    margin-left: 15px;
+  }
+  .singleblog .slidergallery .sliderarrows .rgshare {
+    margin-right: 15px;
+  }
+  .leftpart {
+    margin-left: 15px;
+    width: 48%;
+  }
+  .rightpart {
+    margin-right: 15px;
+    width: 48%;
+  }
+}
+@media (max-width: 980px) {
+  
+}
+@media (max-width: 960px) {
+  
+}
+@media (max-width: 780px) {
+  .blogarchive article.post {
+    margin-right: 5px;
+  }
+  .gallerypage .galleryitems .galitem .imagegally .mask2 .gallydate {
+    display: none;
+  }
+  .contacttop .leftpart {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .contacttop .rightpart {
+    width: 100%;
+    float: none;
+  }
+  .abouttwotop .leftpart {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .abouttwotop .rightpart {
+    width: 100%;
+    float: none;
+  }
+}
+@media (max-width: 640px) {
+  .rightsidebar,
+  .leftsidebar {
+    display: none;
+  }
+  .rightsidebaron,
+  .leftsidebaron {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media (max-width: 480px) {
+  header#top .logo {
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 130px;
+  }
+  header#top .headertext {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  header#top a.gobot {
+    margin: 0 auto;
+    margin-top: 65px;
+  }
+  .teamlist li:nth-child(3n+3) {
+    margin: 0 auto;
+    margin-bottom: 40px!important;
+  }
+  .teamlist li {
+    max-width: 295px;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 40px!important;
+  }
+  footer#footer-main p.copy {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    float: none;
+  }
+  footer#footer-main div.socialprof {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .blogarchive article.post {
+    width: 99%;
+    float: none;
+  }
+  .commentform section.comments {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+  .commentform section.respond {
+    width: 92%;
+    float: none;
+  }
+  .commentform section.comments .scrollbox {
+    width: 100%;
+  }
+  .contactleft,
+  .leftpart {
+    width: 90%;
+    margin-left: 15px;
+    float: none;
+    margin-bottom: 40px;
+  }
+  .contactright,
+  .rightpart {
+    width: 90%;
+    float: none;
+    margin-left: 15px;
+  }
+  .teamlist {
+    width: 90%;
+    overflow: hidden;
+  }
+  .wrapper {
+    overflow: hidden;
+  }
+}
+@media (max-width: 380px) {
+  
+}
