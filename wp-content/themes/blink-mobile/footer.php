@@ -13,7 +13,7 @@
 	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
-		Copyright 2015, BlinkLashBoutique.com
+		Copyright 2016, BlinkLashBoutique.com
 	</div><!-- #footer -->
 
 </div><!-- #wrapper -->
