@@ -5,7 +5,7 @@
             <?php if (ale_get_option('copyrights')) : ?>
                 <p class="copy"><?php echo ale_option('copyrights'); ?></p>
             <?php else: ?>
-                <p class="copy">Copyright 2016, BlinkLashBoutique.com RCM</p>
+                <p class="copy">Copyright 2016, BlinkLashBoutique.com</p>
             <?php endif; ?>
             <div class="socialprof">
                 <?php if(ale_get_option('twi')){ echo '<a href="http://twitter.com/#!/'.ale_get_option('twi').'" rel="external" class="socic twiicon" >Twitter</a> /'; } ?>
