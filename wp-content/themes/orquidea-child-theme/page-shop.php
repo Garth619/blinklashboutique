@@ -16,16 +16,11 @@ get_header(); ?>
                <div class="location-select">
                	<p><h3>Please select a location to view the store:</h3></p>
                	 <ul>
-	               		<!--
-<li>
-		               		<a href="http://www.secure-booker.com/blinklash/ShopOnline/Products.aspx" target="_blank"><img src="http://processpeak.com/staging/blink/wp-content/uploads/2013/12/blink-emblum.png"/> <h2 style="display:inline-block">Little Italy </h2></a> 
-	               		</li>
--->
 	               		<li>
-		               		<a href="http://www.secure-booker.com/blinksolana/ShopOnline/Products.aspx" target="_blank"><img src="http://processpeak.com/staging/blink/wp-content/uploads/2013/12/blink-emblum.png"/> <h2 style="display:inline-block">Solana Beach</h2></a>
+		               		<a href="http://www.secure-booker.com/blinksolana/ShopOnline/Products.aspx" target="_blank"><img src="<?php bloginfo('url');?>/wp-content/uploads/2013/12/blink-emblum.png"/> <h2 style="display:inline-block">Solana Beach</h2></a>
 	               		</li>
 	               		<li>
-		               		<a href="http://www.secure-booker.com/blinksandiego/ShopOnline/Products.aspx" target="_blank"><img src="http://processpeak.com/staging/blink/wp-content/uploads/2013/12/blink-emblum.png"/> <h2 style="display:inline-block">Mission Valley</h2></a>
+		               		<a href="http://www.secure-booker.com/blinksandiego/ShopOnline/Products.aspx" target="_blank"><img src="<?php bloginfo('url');?>/wp-content/uploads/2013/12/blink-emblum.png"/> <h2 style="display:inline-block">Mission Valley</h2></a>
 	               		</li>
 							 	 </ul>
 	             </div> <!-- #location-select -->

@@ -51,10 +51,11 @@
 		</div>
 		<div id="mobile-nav">
 			<ul>
-			   <li><a href="<?php bloginfo('siteurl') ?>">Home</a></li>
-			   <li><a href="<?php bloginfo('siteurl') ?>/pricing/">Pricing</a></li>
-			   <li><a href="<?php bloginfo('siteurl') ?>/book/">Book</a></li>
-			   <li><a href="<?php bloginfo('siteurl') ?>/before-and-after/">Before and After</a></li>
+			   <li><a href="<?php bloginfo('url') ?>">Home</a></li>
+			   <li><a href="<?php bloginfo('url') ?>/shop">Shop</a></li>
+			   <li><a href="<?php bloginfo('url') ?>/pricing/">Pricing</a></li>
+			   <li><a href="<?php bloginfo('url') ?>/book/">Book</a></li>
+			   <li><a href="<?php bloginfo('url') ?>/before-and-after/">Before and After</a></li>
 			</ul>
 		</div>
 		</div>

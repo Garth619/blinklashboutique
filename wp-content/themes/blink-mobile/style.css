@@ -334,6 +334,7 @@ img#wpstats{display:block;margin:0 auto 10px}
 }
 .top-header {
   position: fixed;
+  z-index:5000;
 }
 .home-nav-wrap {
   margin-top: 30px;
@@ -392,6 +393,47 @@ a.mapit, a.email {
   right: 0;
   top: 5px;
 }
+
+
+
+
+.mobile_location {
+	
+}
+
+
+.mobile_location h3 {
+	font-size:25px;
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.mobile_location ul {
+	list-style: none;
+}
+
+.mobile_location li {
+	margin-bottom: 25px;
+	
+}
+
+.mobile_location a {
+	
+}
+
+.mobile_location img {
+	width:65px;
+	margin-right: 8px;
+}
+
+.mobile_location h2 {
+	font-size:25px;
+	display: inline-block;
+	position: relative;
+	top: -20px;
+}
+
 
 .location-select li {
   list-style: none outside none;
