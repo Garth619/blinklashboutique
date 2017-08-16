@@ -22,6 +22,29 @@ Cufon.replace('pricing-left div h3 a',{ignore:{span:true}});
             <div class="custompage cf">
             	<div class="boxtitle headerfont marginlef1"> <?php the_title(); ?></div>
 	            <div><?php the_field('pricing_main_content') ?></div>
+	            
+	            
+	            
+	            
+	            <div class="classic_lash">
+		            
+		            <div class="boxtitle headerfont marginlef1">Classic Lashes vs Volume lashes</div>
+		            
+		            <?php the_field('classic_lashes_vs_volume_lashes');?>
+		            
+	            </div><!-- classic_lash -->
+	            
+	            
+	            <div class="lash_lift">
+		            
+		            <div class="boxtitle headerfont marginlef1">Lash Lift</div>
+		            
+		            <?php the_field('lash_lift');?>
+		            
+	            </div><!-- classic_lash -->
+	            
+	            
+	            
                 
                 <div class="pricing-left">
 
