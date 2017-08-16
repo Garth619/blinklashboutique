@@ -26,25 +26,29 @@ Cufon.replace('pricing-left div h3 a',{ignore:{span:true}});
 	            
 	            
 	            
-	            <div class="classic_lash">
-		            
-		            <div class="boxtitle headerfont marginlef1">Classic Lashes vs Volume lashes</div>
-		            
-		            <?php the_field('classic_lashes_vs_volume_lashes');?>
-		            
-	            </div><!-- classic_lash -->
+	            <?php if(get_field('classic_lashes_vs_volume_lashes')):?>
 	            
-	            
-	            <div class="lash_lift">
+	            	<div class="classic_lash">
 		            
-		            <div class="boxtitle headerfont marginlef1">Lash Lift</div>
+		            	<div class="boxtitle headerfont marginlef1">Classic Lashes vs Volume lashes</div>
 		            
-		            <?php the_field('lash_lift');?>
+										<?php the_field('classic_lashes_vs_volume_lashes');?>
 		            
-	            </div><!-- classic_lash -->
+	            		</div><!-- classic_lash -->
 	            
+								<?php endif;?>
+							
+							 <?php if(get_field('lash_lift')):?>
 	            
+							 	<div class="lash_lift">
+		            
+		            	<div class="boxtitle headerfont marginlef1">Lash Lift</div>
+		            
+										<?php the_field('lash_lift');?>
+		            
+									</div><!-- lash_lift -->
 	            
+								<?php endif;?>
                 
                 <div class="pricing-left">
 
