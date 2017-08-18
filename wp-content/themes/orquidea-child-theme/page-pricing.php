@@ -38,18 +38,7 @@ Cufon.replace('pricing-left div h3 a',{ignore:{span:true}});
 	            
 								<?php endif;?>
 							
-							 <?php if(get_field('lash_lift')):?>
-	            
-							 	<div class="lash_lift">
-		            
-		            	<div class="boxtitle headerfont marginlef1">Lash Lift</div>
-		            
-										<?php the_field('lash_lift');?>
-		            
-									</div><!-- lash_lift -->
-	            
-								<?php endif;?>
-                
+							                 
                 <div class="pricing-left">
 
 	                <div class="boxtitle headerfont marginlef1">Full Set</div>
@@ -65,6 +54,50 @@ Cufon.replace('pricing-left div h3 a',{ignore:{span:true}});
 <div class="boxtitle headerfont marginlef1">Touch ups</div>
 	                <div class="touchups"><?php the_field('bottom_lashes_touch_up') ?></div>
 -->
+
+
+									<?php if(get_field('lash_lift')):?>
+	            
+							 	<div class="lash_lift">
+		            
+		            	<div class="boxtitle headerfont marginlef1">Lash Lift</div>
+		            
+										<?php the_field('lash_lift');?>
+										
+										
+										
+										<?php if(get_field('lash_lift_prices')): ?>
+										
+											<table>
+												<tbody>
+										 
+												<?php while(has_sub_field('lash_lift_prices')): ?>
+										 
+												
+													
+													<tr>
+														<td width="400px" height="65px">
+															<h3><strong><?php the_sub_field('title');?></strong></h3>
+														</td>
+														<td width="20%"><?php the_sub_field('prices');?></td>
+													</tr>
+	
+										    
+												<?php endwhile; ?>
+											
+											</tbody>
+										</table>
+										 
+										<?php endif; ?>
+										
+										
+												            
+									</div><!-- lash_lift -->
+	            
+								<?php endif;?>
+
+
+
 	                
 	                <div class="boxtitle headerfont marginlef1">Waxing</div>
 	                <div class="waxing"><?php the_field('waxing') ?></div>

@@ -4077,3 +4077,12 @@ body.page-id-271 h3 {
 }
   
 } /* end max-width: 380px */
+
+
+
+
+.lash_lift img, .classic_lash img {
+	max-width:100%;
+	height:auto;
+	margin-top:30px;
+}

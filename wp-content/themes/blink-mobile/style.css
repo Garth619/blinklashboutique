@@ -515,3 +515,19 @@ img#wpstats{display:none}
 #main{display:inline}
 .home .sticky{border:none}
 }
+
+
+
+div#classic_lash .fullset img {
+	margin-top:25px !important;
+	display: block !important;
+}
+
+
+div.pricing-content div.fullset table tbody tr td p img {
+	max-width:100%;
+	height:auto;
+}
+
+
+
