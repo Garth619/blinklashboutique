@@ -26,6 +26,7 @@ Cufon.replace('pricing-left div h3 a',{ignore:{span:true}});
 	            
 	            
 	            
+<!--
 	            <?php if(get_field('classic_lashes_vs_volume_lashes')):?>
 	            
 	            	<div class="classic_lash">
@@ -34,9 +35,10 @@ Cufon.replace('pricing-left div h3 a',{ignore:{span:true}});
 		            
 										<?php the_field('classic_lashes_vs_volume_lashes');?>
 		            
-	            		</div><!-- classic_lash -->
+	            		</div>
 	            
 								<?php endif;?>
+-->
 							
 							                 
                 <div class="pricing-left">
